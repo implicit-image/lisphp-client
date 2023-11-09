@@ -1,0 +1,33 @@
+body {
+
+}
+
+
+.flex-container {
+    display: flex;
+    width: 100%;
+}
+
+.repl-history-entry {
+    border: darkgray solid 5px;
+}
+
+#repl-frame {
+    border: black solid 5px;
+    flex-direction: column;
+    padding: 1em;
+}
+
+#repl-history {
+    border: black solid 5px;
+    height: 700px;
+}
+
+#repl-input-frame {
+    border: black solid 5px;
+}
+
+#repl-input {
+    width: 80%;
+    margin: .2em;
+}
