@@ -1,33 +1,49 @@
 body {
-
+    font-family: Courier;
+    font-size: 2em;
+    background-color: black;
 }
 
+input {
+    all: initial;
+}
 
 .flex-container {
     display: flex;
-    width: 100%;
+    width: 99%;
 }
 
 .repl-history-entry {
-    border: darkgray solid 5px;
 }
 
 #repl-frame {
-    border: black solid 5px;
+    background-color: black;
+    color: white;
     flex-direction: column;
-    padding: 1em;
 }
 
 #repl-history {
-    border: black solid 5px;
-    height: 700px;
 }
 
 #repl-input-frame {
     border: black solid 5px;
 }
 
-#repl-input {
+#repl-input[type=text] {
     width: 80%;
-    margin: .2em;
+    background-color: black;
+    color: white;
+    font-family: Courier;
+    font-size: 1em;
 }
+
+.free-space {
+    height: 80%;
+    flex-shrink: 0;
+    outline: white solid 1px;
+}
+
+/* #repl-input:active { */
+/*     border: none; */
+/*     outline: none; */
+/* } */
